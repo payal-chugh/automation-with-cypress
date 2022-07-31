@@ -1,0 +1,27 @@
+{
+  "name": "automation-with-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open",
+    "cypress:dashboard": "cypress run --record --key f06fcd67-9e3c-4ef7-a1dd-077760ed4c93"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/payal-chugh/automation-with-cypress.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/payal-chugh/automation-with-cypress/issues"
+  },
+  "homepage": "https://github.com/payal-chugh/automation-with-cypress#readme",
+  "dependencies": {
+    "cypress-iframe": "^1.0.1"
+  },
+  "devDependencies": {
+    "cypress": "^9.4.1"
+  }
+}
